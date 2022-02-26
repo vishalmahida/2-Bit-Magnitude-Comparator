@@ -1,4 +1,4 @@
-# 2-Bit-Magnitude-Comparator
+# 2-Bit Magnitude Comparator
 
 The design of a 2-bit magnitude comparator utilizing Synopsys Custom Compiler on 28nm CMOS technology is shown in this repository.
 
@@ -36,5 +36,5 @@ In digital system, comparison of two numbers is an arithmetic operation that det
 
 ![image](https://user-images.githubusercontent.com/71437573/155836169-18677b92-1f64-4f75-8d88-c36b03ed9ff8.png)
 
-Figure 01: 2-bit Magnitude Comparator
+       Figure 01: 2-bit Magnitude Comparator
 
