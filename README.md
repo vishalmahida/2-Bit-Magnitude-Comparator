@@ -32,5 +32,7 @@ In digital system, comparison of two numbers is an arithmetic operation that det
 
 ##  Construction and working of 2-bit magnitude comparator
 2-Bit Magnitude Comparator Compares two numbers each having two bits (A1, A0 & B1, B0). The logic for a 2-bit numbers be A=A1A0 and B=B1B0. Two binary numbers are equal, if and only if all their corresponding bits coincide. 
+
+
 ![image](https://user-images.githubusercontent.com/71437573/155836169-18677b92-1f64-4f75-8d88-c36b03ed9ff8.png)
 
