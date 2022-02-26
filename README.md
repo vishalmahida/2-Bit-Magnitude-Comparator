@@ -42,8 +42,7 @@ The outcome of comparison is specified by three binary variables that indicate w
 
 > Truth Table
 
-<p align="center">
-![image](https://user-images.githubusercontent.com/71437573/155836295-09a2be60-15aa-42e3-bcb1-dfb780098474.png)
+   ![image](https://user-images.githubusercontent.com/71437573/155836295-09a2be60-15aa-42e3-bcb1-dfb780098474.png)
 
 > KARNAUGH MAPPING
 
@@ -54,7 +53,9 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
     ![image](https://user-images.githubusercontent.com/71437573/155836397-e808e052-58fe-4ebb-94c5-87bab51e14f3.png)
 
     A>B: = A1B1’+A0B0’A1’B1’+A0B0’A1B1 
+    
          = A1B1’+A0B0’(A1’B1’+A1B1)      Assuming X1 = A1'B1'+A1B1
+	 
          = A1B1’+A0B0’ X1
 
 
@@ -63,7 +64,9 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
     ![image](https://user-images.githubusercontent.com/71437573/155836420-bc449b9f-1362-44b5-b524-dcfd516334b8.png)
  
     A=B: = A1’A0’B1’B0’+ A1’A0B1’B0+A1A0’B1B0’+A1A0B1B0 
+    
          = (A1’B1’+A1B1) (A0’B0’+A0B0)   Assuming X1 = A1'B1'+A1B1 X0 = A0’B0’+A0B0
+	 
          = X1X0
 
 3. For A<B
@@ -71,7 +74,9 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
      ![image](https://user-images.githubusercontent.com/71437573/155836498-ad9e1d93-4b16-4e7d-a64e-7854c6d5ebec.png)
 	   
      A<B: = A1’B1+A0’BOA1’B1’+A0’B0A1B1
+     
           = A1’B1+A0’B0(A1’B1’+A1B1)     Assuming X1 = A1'B1'+A1B1
+	  
           = A1’B1+A0’B0X1
 
 
