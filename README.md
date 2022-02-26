@@ -88,8 +88,9 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 
 
 <p align="Center">
-  <img src="Picture/CMOS INVERTER.png" width="700" height="500" /><br />
-  AND GATE SCHEMATIC<br />
+  <img src="![image](https://user-images.githubusercontent.com/71437573/155837748-5fe9ac42-a076-440b-8b51-9ba47a6831ee.png)
+" width="700" height="500" /><br />
+  NOT GATE SCHEMATIC<br />
   
 </p>
 
