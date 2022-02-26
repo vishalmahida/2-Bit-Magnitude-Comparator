@@ -134,6 +134,7 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 
 ## Netlist
 
+Refer to the netlist of the circuits here: <a href='transient_analysis.txt'> Netlist </a>
 
 ## Author
 
