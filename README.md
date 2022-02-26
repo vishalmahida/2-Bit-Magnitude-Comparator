@@ -124,10 +124,32 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 ![Magnitude_Comparator_Symbol](https://user-images.githubusercontent.com/71437573/155840045-8e1a998b-56e7-4e26-bc95-32432595440a.jpg)
 
 
-## Waveform
+
+## Simulations 
+
+### Transient Analysis
 
 ![Waveform](https://user-images.githubusercontent.com/71437573/155840053-2d3ce59d-b6dc-4415-8baa-128b774ac45a.jpg)
 
 
+## Netlist
+
+
+## Author
+
+
+- Vishal Mahida, MTech VLSI System Design & Embedded System, Ganpat University, Mehsana, Gujarat.
+
+## Acknowledgements
+
+ - [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+ - [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/')
+ - [Synopsys India](https://www.synopsys.com/)
+ - [Sameer Durgoji, NIT Karnataka](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+ - [Chinmay panda, IIT Hyderabad](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+
+## References
+- [1] S. Kang and Y. Leblebici “CMOS Digital Integrated Circuit, Analysis and Design” (Tata McGraw-Hill, 3rd Ed, 2003).
+- [2] A. Anand Kumar “Fundamentals of Digital Circuits” (Second Edition) 
 
 
