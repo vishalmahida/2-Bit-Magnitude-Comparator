@@ -73,6 +73,6 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 
 > CIRCUIT DAIGRAM
 
-  ![image](https://user-images.githubusercontent.com/71437573/155836911-c44ee1b6-1162-4362-a4ec-e598086991d0.png)
+     ![image](https://user-images.githubusercontent.com/71437573/155836911-c44ee1b6-1162-4362-a4ec-e598086991d0.png)
 
 
