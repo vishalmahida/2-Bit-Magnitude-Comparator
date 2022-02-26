@@ -81,5 +81,21 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 
 - Synopsys Custom CompilerTM is a cutting-edge design environment for full-custom analogue, custom digital, and mixed-signal ICs. Custom Compiler, the brains behind the Synopsys Custom Design Platform, lets you enter designs, control simulations, and change custom layouts. It provides industry-leading productivity, performance, and ease-of-use while staying simple to implement for legacy tool users. Mixed-signal design entry, design debug, simulation management, analysis, and reporting are all available in the Custom Compiler design environment. 
 - Custom Compiler enhances efficiency with its visually-assisted automation flow and delivers quick and user-friendly polygon editing tools. Compiler detect physical and electrical faults during layout. Design rule checking, electromigration checking, and resistance and capacitance extraction are just a few examples. With support for templates and early parasitic simulation, the Custom Compiler design environment makes it simple to convey design intent and reach analogue design closure.
-- Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
-- Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+- Synopsys Primewave is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+- Synopsys 28nm PDK is the Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
+##  CMOS INVERTER
+
+
+<p align="Center">
+  <img src="Picture/CMOS INVERTER.png" width="700" height="500" /><br />
+  AND GATE SCHEMATIC<br />
+  
+</p>
+
+
+##  CMOS 2 Input AND Gate
+##  CMOS 3 Input AND Gate
+##  CMOS 3 Input OR Gate
+##  CMOS XNOR Gate
+
