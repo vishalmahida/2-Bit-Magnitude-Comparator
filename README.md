@@ -35,4 +35,5 @@ In digital system, comparison of two numbers is an arithmetic operation that det
 
 
 ![image](https://user-images.githubusercontent.com/71437573/155836169-18677b92-1f64-4f75-8d88-c36b03ed9ff8.png)
+Figure 01: 2-bit Magnitude Comparator
 
