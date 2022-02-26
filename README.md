@@ -40,7 +40,7 @@ In digital system, comparison of two numbers is an arithmetic operation that det
   
 The outcome of comparison is specified by three binary variables that indicate whether A>B, A=B, or A<B[1].
 
-Truth Table
+> Truth Table
 
 ![image](https://user-images.githubusercontent.com/71437573/155836295-09a2be60-15aa-42e3-bcb1-dfb780098474.png)
 
