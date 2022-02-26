@@ -48,3 +48,15 @@ The outcome of comparison is specified by three binary variables that indicate w
 
 The Karnaugh map (K-map) method, is a systematic method to simplifying the Boolean expression.
 
+1. For A>B
+
+![image](https://user-images.githubusercontent.com/71437573/155836397-e808e052-58fe-4ebb-94c5-87bab51e14f3.png)
+
+A>B: = A1B1’+A0B0’A1’B1’+A0B0’A1B1 
+         = A1B1’+A0B0’(A1’B1’+A1B1) 
+         = A1B1’+A0B0’ X1
+
+
+2. For A=B
+
+3. For A<B
