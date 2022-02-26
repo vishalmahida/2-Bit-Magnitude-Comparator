@@ -12,7 +12,8 @@ The design of a 2-bit magnitude comparator utilizing Synopsys Custom Compiler on
    * [CMOS 3 Input AND Gate](#CMOS-3-Input-AND-Gate)
    * [CMOS 3 Input OR Gate](#CMOS-3-Input-OR-Gate)
    * [CMOS XNOR Gate](#CMOS-XNOR-Gate)
-   * [2-Bit magnitude comparator Module](#2-Bit-magnitude-comparator-Module)
+   * [Magnitude comparator Schematic](#Magnitude-comparator-Schematic)
+   * [Magnitude comparator Symbol](#Magnitude-comparator-Symbol)
    * [Simulations](#Simulations)
    * [Netlist](#Netlist)
    * [Acknowledgements](#Acknowledgements)
@@ -90,9 +91,43 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 
 
 
-
 ##  CMOS 2 Input AND Gate
+
+![CMOS 2 Input AND Gate](https://user-images.githubusercontent.com/71437573/155839993-30028ced-d185-4ffe-9726-fc7f1d84403a.jpg)
+
+
+
 ##  CMOS 3 Input AND Gate
+
+![CMOS 3 Input AND Gate](https://user-images.githubusercontent.com/71437573/155839997-89920976-8b61-4745-bfe3-da6c7e57c51a.jpg)
+
+
+
 ##  CMOS 3 Input OR Gate
+
+![CMOS 3 Input OR Gate](https://user-images.githubusercontent.com/71437573/155840000-e41d7d4c-d083-48bd-b798-ec65ff160502.jpg)
+
+
+
 ##  CMOS XNOR Gate
+
+![CMOS XNOR Gate](https://user-images.githubusercontent.com/71437573/155840004-1ea464dd-0b0a-4685-b888-c06c2f1ca600.jpg)
+
+
+##  Magnitude Comparator Schematic
+
+![Magnitude_Comparator_Schematic](https://user-images.githubusercontent.com/71437573/155840027-36236131-f0be-4bb0-b7b6-610929d5488e.jpg)
+
+
+##  Magnitude Comparator Symbol
+
+![Magnitude_Comparator_Symbol](https://user-images.githubusercontent.com/71437573/155840045-8e1a998b-56e7-4e26-bc95-32432595440a.jpg)
+
+
+## Waveform
+
+![Waveform](https://user-images.githubusercontent.com/71437573/155840053-2d3ce59d-b6dc-4415-8baa-128b774ac45a.jpg)
+
+
+
 
