@@ -1,0 +1,169 @@
+*  Generated for: PrimeSim
+*  Design library name: cp_lib1
+*  Design cell name: Magnitude_comparator_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sat Feb 26 10:00:06 2022
+
+.global gnd! vdd!
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : CMOS
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cmos a y vt_bulk_n_gnd! vt_bulk_p_vdd!
+xm0 y a net13 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 y a gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+v8 net13 gnd! dc=1.8
+.ends cmos
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : CMOS_2AND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cmos_2and a b y vt_bulk_n_gnd! vt_bulk_p_vdd!
+xm2 y net18 gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm1 net4 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm0 net18 a net4 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm5 y net18 net14 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm4 net14 b net18 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm3 net18 a net14 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+v6 net14 gnd! dc=1.8
+.ends cmos_2and
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : CMOS_3AND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cmos_3and a b c vout vt_bulk_n_gnd! vt_bulk_p_vdd!
+xm3 vout net24 net7 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 net24 c net7 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net24 b net7 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net24 a net7 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm7 vout net24 gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 net19 c gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm5 net16 b net19 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm4 net24 a net16 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+v8 net7 gnd! dc=1.8
+.ends cmos_3and
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : CMOS_3OR
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cmos_3or a b c vout vt_bulk_n_gnd! vt_bulk_p_vdd!
+xm3 vout net24 net10 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 net24 c net7 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net7 b net4 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net4 a net10 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm7 vout net24 gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 net24 c gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm5 net24 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm4 net24 a gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+v8 net10 gnd! dc=1.8
+.ends cmos_3or
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : CMOS_XNOR
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cmos_xnor a b vout vt_bulk_n_gnd! vt_bulk_p_vdd!
+xi1 b net16 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos
+xi0 a net10 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos
+xm5 vout net16 net14 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm4 vout b net11 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm3 net14 net10 net8 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm2 net11 a net8 vt_bulk_p_vdd! p105 w=0.1u l=0.03u nf=1 m=1
+xm9 net26 b gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm8 net23 net16 gnd! vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm7 vout net10 net26 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+xm6 vout a net23 vt_bulk_n_gnd! n105 w=0.1u l=0.03u nf=1 m=1
+v10 net8 gnd! dc=1.8
+.ends cmos_xnor
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : Magnitude_comparator
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt magnitude_comparator a0 a1 a_equ_b a_gret_b a_less_b b0 b1
++ vt_bulk_n_gnd! vt_bulk_p_vdd!
+xi3 b0 net38 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos
+xi2 b1 net35 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos
+xi1 a0 net13 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos
+xi0 a1 net10 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos
+xi11 a1 net35 net45 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_2and
+xi10 net31 net32 a_equ_b vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_2and
+xi4 net10 b1 net21 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_2and
+xi13 a1 a0 net38 net47 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_3and
+xi12 a0 net38 net35 net46 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_3and
+xi6 net10 net13 b0 net23 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_3and
+xi5 net13 b1 b0 net22 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_3and
+xi14 net45 net46 net47 a_gret_b vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_3or
+xi7 net21 net22 net23 a_less_b vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_3or
+xi9 a0 b0 net32 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_xnor
+xi8 a1 b1 net31 vt_bulk_n_gnd! vt_bulk_p_vdd! cmos_xnor
+.ends magnitude_comparator
+
+********************************************************************************
+* Library          : cp_lib1
+* Cell             : Magnitude_comparator_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 a0 a1 a_equ_b a_gret_b a_less_b b0 b1 gnd! vdd! magnitude_comparator
+v4 a0 gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 15u 20u )
+v3 a1 gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 20u 25u )
+v2 b0 gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 5u 10u )
+v1 b1 gnd! dc=0 pulse ( 0 1.05 0 0.1u 0.1u 10u 15u )
+c17 a_equ_b gnd! c=1p
+c15 a_less_b gnd! c=1p
+c16 a_gret_b gnd! c=1p
+
+
+
+
+
+
+
+
+.tran '1u' '100u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(a0) v(a1) v(a_equ_b) v(a_gret_b) v(a_less_b) v(b0) v(b1)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
