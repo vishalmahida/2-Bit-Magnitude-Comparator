@@ -1,4 +1,4 @@
-# 2-Bit Magnitude Comparator
+# Design a 2-bit magnitude comparator using 28nm CMOS Technology
 
 The design of a 2-bit magnitude comparator utilizing Synopsys Custom Compiler on 28nm CMOS technology is shown in this repository.
 
@@ -42,6 +42,7 @@ The outcome of comparison is specified by three binary variables that indicate w
 
 > Truth Table
 
+<p align="center">
 ![image](https://user-images.githubusercontent.com/71437573/155836295-09a2be60-15aa-42e3-bcb1-dfb780098474.png)
 
 > KARNAUGH MAPPING
