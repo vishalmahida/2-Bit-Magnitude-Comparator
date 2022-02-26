@@ -44,4 +44,7 @@ Truth Table
 
 ![image](https://user-images.githubusercontent.com/71437573/155836295-09a2be60-15aa-42e3-bcb1-dfb780098474.png)
 
+> KARNAUGH MAPPING
+
+The Karnaugh map (K-map) method, is a systematic method to simplifying the Boolean expression.
 
