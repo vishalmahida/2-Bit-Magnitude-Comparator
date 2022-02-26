@@ -1,4 +1,4 @@
-2-Bit-Magnitude-Comparator
+# 2-Bit-Magnitude-Comparator
 The design of a 2-bit magnitude comparator utilizing Synopsys Custom Compiler on 28nm CMOS technology is shown in this repository.
 Table of Content
 •	Abstract
