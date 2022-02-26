@@ -7,7 +7,7 @@ The design of a 2-bit magnitude comparator utilizing Synopsys Custom Compiler on
    * [Introduction](#Introduction)
    * [Detailed Explanation](#Detailed-Explanation)
    * [Apparatus](#Apparatus)
-   * [CMOS INVERTER](#CMOS-INVERTER)
+   * [CMOS NOT Gate](#CMOS-NOT-Gate)
    * [CMOS 2 Input AND Gate](#CMOS-2-Input-AND-Gate)
    * [CMOS 3 Input AND Gate](#CMOS-3-Input-AND-Gate)
    * [CMOS 3 Input OR Gate](#CMOS-3-Input-OR-Gate)
@@ -88,8 +88,8 @@ The Karnaugh map (K-map) method, is a systematic method to simplifying the Boole
 
 
 <p align="Center">
-  <img src="![image](https://user-images.githubusercontent.com/71437573/155837748-5fe9ac42-a076-440b-8b51-9ba47a6831ee.png)
-" width="700" height="500" /><br />
+  ![image](https://user-images.githubusercontent.com/71437573/155837779-458627a2-77d0-43c5-b375-1405e7c44b19.png)
+<br />
   NOT GATE SCHEMATIC<br />
   
 </p>
